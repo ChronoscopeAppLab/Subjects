@@ -32,3 +32,35 @@ Liftim用教科定義データは、Liftim時間割の教科一覧や教科ご�
 
 ※キーの順番はデータの読み取りに全く影響がありません。
 もしColorPalleteにない定義をした場合はLiftimは未定義の色として内部的に決められた色を使用します。
+
+## Gitコマンドの使用方法
+Gitコマンドがわからない人がいると困るので。Gitは[ここ](https://git-scm.com/)からダウンロードできます。
+ChronoscopeAppLabのOrganizationに入っている前提で書きます。入っていない場合は最初にこのリポジトリをforkしてください。
+
+###### 1.リポジトリをcloneします。
+```
+cd /tekitouna/directory/
+git clone https://github.com/ChronoscopeAppLab/Subjects.git
+```
+
+###### 2.ブランチを作ります。
+```
+git branch ブランチ名
+```
+(ブランチ名のところはわかりやすい名前をつけてください。)
+
+###### 3.適当に（というか真剣に）ファイルを編集します。
+
+###### 4.commitします。
+```
+git add --all
+git commit -m "コミットメッセージ（わかりやすいメッセージを入れてください）"
+```
+
+###### 5.pushします。
+```
+git push origin ブランチ名
+```
+
+###### 6.GitHubでプルリクエスト作成
+GitHubを開くとリポジトリの上部に見慣れないものが表示されていると思います。そこをクリックし、`master`とcompareしてプルリクエストを作成してください（最後説明が雑）。
