@@ -1,0 +1,132 @@
+[
+  {
+    "shortSubject": "国語",
+    "subject": "国語",
+    "color": "red"
+  },
+  {
+    "shortSubject": "国現",
+    "subject": "国語総合(現代文)",
+    "color": "red"
+  },
+  {
+    "shortSubject": "国古",
+    "subject": "国語総合(古典)",
+    "color": "red"
+  },
+  {
+    "shortSubject": "現文",
+    "subject": "現代文",
+    "color": "COLOR_DEF"
+  },
+  {
+    "shortSubject": "古文",
+    "subject": "古文",
+    "color": "COLOR_DEF"
+  },
+  {
+    "shortSubject": "数学",
+    "subject": "数学",
+    "color": "blue"
+  },
+  {
+    "shortSubject": "現社",
+    "subject": "現代社会",
+    "color": "yellow-800"
+  },
+  {
+    "shortSubject": "世史",
+    "subject": "世界史",
+    "color": "COLOR_DEF"
+  },
+  {
+    "shortSubject": "日史",
+    "subject": "日本史",
+    "color": "COLOR_DEF"
+  },
+  {
+    "shortSubject": "地理",
+    "subject": "地理",
+    "color": "COLOR_DEF"
+  },
+  {
+    "shortSubject": "生基",
+    "subject": "生物基礎",
+    "color": "green-A700"
+  },
+  {
+    "shortSubject": "生物",
+    "subject": "生物",
+    "color": "COLOR_DEF"
+  },
+  {
+    "shortSubject": "物基",
+    "subject": "物理基礎",
+    "color": "green"
+  },
+  {
+    "shortSubject": "物理",
+    "subject": "物理",
+    "color": "COLOR_DEF"
+  },
+  {
+    "shortSubject": "化基",
+    "subject": "化学基礎",
+    "color": "COLOR_DEF"
+  },
+  {
+    "shortSubject": "化学",
+    "subject": "化学",
+    "color": "COLOR_DEF"
+  },
+  {
+    "shortSubject": "英語",
+    "subject": "英語",
+    "color": "purple-400"
+  },
+  {
+    "shortSubject": "コ英",
+    "subject": "コミュニケーション英語",
+    "color": "purple-400"
+  },
+  {
+    "shortSubject": "英表",
+    "subject": "英語表現",
+    "color": "purple-A200"
+  },
+  {
+    "shortSubject": "保健",
+    "subject": "保健",
+    "color": "pink-A100"
+  },
+  {
+    "shortSubject": "体育",
+    "subject": "体育",
+    "color": "orange"
+  },
+  {
+    "shortSubject": "家基",
+    "subject": "家庭基礎",
+    "color": "brown"
+  },
+  {
+    "shortSubject": "情報",
+    "subject": "情報の科学",
+    "color": "indigo"
+  },
+  {
+    "shortSubject": "音楽",
+    "subject": "音楽",
+    "color": "teal"
+  },
+  {
+    "shortSubject": "HR",
+    "subject": "ホームルーム",
+    "color": "blue-grey"
+  },
+  {
+    "shortSubject": "総合",
+    "subject": "総合学習",
+    "color": "blue-grey"
+  }
+]
