@@ -1,0 +1,62 @@
+[
+	{
+    "shortSubject": "国語",
+    "subject": "国語",
+    "color": "red"
+  },
+	{
+    "shortSubject": "数学",
+    "subject": "数学",
+    "color": "blue",
+  },
+	{
+    "shortSubject": "理科",
+    "subject": "理科",
+    "color": "green"
+  },
+	{
+    "shortSubject": "社会",
+    "subject": "社会",
+    "color": "amber"
+  },
+	{
+    "shortSubject": "英語",
+    "subject": "英語",
+    "color": "pink-A100"
+  },
+	{
+    "shortSubject": "技家",
+    "subject": "技術家庭科",
+    "color": "brown"
+  },
+	{
+    "shortSubject": "美術",
+    "subject": "美術",
+    "color": "deep-purple"
+  },
+	{
+    "shortSubject": "音楽",
+    "subject": "音楽",
+    "color": "teal"
+  },
+	{
+    "shortSubject": "保体",
+    "subject": "保健体育",
+    "color": "orange"
+  },
+	{
+    "shortSubject": "道徳",
+    "subject": "道徳",
+    "color": "teal-A700"
+  },
+	{
+    "shortSubject": "総合",
+    "subject": "総合",
+    "color": "blue-grey"
+  },
+	{
+    "shortSubject": "学活",
+    "subject": "学級活動",
+    "color": "blue-grey"
+  }
+]
