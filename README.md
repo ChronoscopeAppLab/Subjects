@@ -1,11 +1,10 @@
 # Liftim用教科定義データ
 
 Liftim用教科定義データは、Liftim時間割の教科一覧や教科ごとのテーマ色を設定するもので、[JSON](http://json.org/)で記述されています。
-定義データは`subjects.json`です。まだ色を決めていないものは一時的に`COLOR_DEF`という文字列を入れてあります。
+定義データは`presetSubjects`内にあります。
 また、`material_color.json`はマテリアルデザインガイドラインの[Color palette](https://material.io/guidelines/style/color.html#color-color-palette)で示された色と`RGB`の対応をJsonArrayのデータとして保存しています（このファイルは`MaterialDesignLite`から生成しました）。
 
 ## 教科定義を追加するにあたって
-教科定義を追加するにあたって、`subjects.json`のフォーマットを示しておきます。
 次のコードをご覧ください：
 ```
 [
@@ -22,7 +21,7 @@ Liftim用教科定義データは、Liftim時間割の教科一覧や教科ご�
 ]
 
 ```
-これは`subjects.json`の内容の一部を取り出したものです。ルートはJSONArrayです。その中にJSONObjectが列挙されているフォーマットになっています。`subject`、`shortSubject`、`color`の要素がありますが、それぞれの内容は次の表をご覧ください。
+これは定義データの内容の一部を取り出したものです。ルートはJSONArrayです。その中にJSONObjectが列挙されているフォーマットになっています。`subject`、`shortSubject`、`color`の要素がありますが、それぞれの内容は次の表をご覧ください。
 
 キー | 概要 | 型
 ---- | ---- | ----
