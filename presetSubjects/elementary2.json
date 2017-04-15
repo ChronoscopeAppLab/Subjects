@@ -1,0 +1,47 @@
+[
+	{
+    "shortSubject": "国語",
+    "subject": "国語",
+    "color": "red"
+  },
+	{
+    "shortSubject": "社会",
+    "subject": "社会",
+    "color": "amber"
+  },
+	{
+    "shortSubject": "算数",
+    "subject": "算数",
+    "color": "blue",
+  },
+	{
+    "shortSubject": "理科",
+    "subject": "理科",
+    "color": "green"
+  },
+	{
+    "shortSubject": "音楽",
+    "subject": "音楽",
+    "color": "teal"
+  },
+	{
+    "shortSubject": "図工",
+    "subject": "図画工作",
+    "color": "brown"
+  },
+	{
+    "shortSubject": "体育",
+    "subject": "体育",
+    "color": "orange"
+  },
+	{
+    "shortSubject": "道徳",
+    "subject": "道徳",
+    "color": "teal-A700"
+  }
+	{
+    "shortSubject": "総合",
+    "subject": "総合",
+    "color": "blue-grey"
+  }
+]
