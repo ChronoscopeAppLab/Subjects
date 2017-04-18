@@ -26,7 +26,17 @@
   },
 	{
     "shortSubject": "技家",
-    "subject": "技術家庭科",
+    "subject": "技術家庭",
+    "color": "brown"
+  },
+	{
+    "shortSubject": "技術",
+    "subject": "技術",
+    "color": "indigo"
+  },
+	{
+    "shortSubject": "家庭",
+    "subject": "家庭",
     "color": "brown"
   },
 	{
@@ -42,6 +52,16 @@
 	{
     "shortSubject": "保体",
     "subject": "保健体育",
+    "color": "orange"
+  },
+	{
+    "shortSubject": "保健",
+    "subject": "保健",
+    "color": "pink-A100"
+  },
+  {
+    "shortSubject": "体育",
+    "subject": "体育",
     "color": "orange"
   },
 	{
