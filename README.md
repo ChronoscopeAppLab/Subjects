@@ -1,11 +1,12 @@
-# Liftim用教科定義データ
+# List of subjects for Liftim
 
-Liftim用教科定義データは、Liftim時間割の教科一覧や教科ごとのテーマ色を設定するもので、[JSON](http://json.org/)で記述されています。
-定義データは`presetSubjects`内にあります。
-また、`material_color.json`はマテリアルデザインガイドラインの[Color palette](https://material.io/guidelines/style/color.html#color-color-palette)で示された色と`RGB`の対応をJsonArrayのデータとして保存しています（このファイルは`MaterialDesignLite`から生成しました）。
+List of subjects for Liftim is defining subject theme color, written in [JSON](http://json.org/).
+Main data exists under `presetSubjects` directory. Users can choose suitable subjects preset because we have variety of subject definition file for a variety of type of class. If you contribute this repository, supported types of classes will be increased.
 
-## 教科定義を追加するにあたって
-次のコードをご覧ください：
+## To add subject definition file
+Theme colors are being defined using [Color palette](https://material.io/guidelines/style/color.html#color-color-palette) of Matrial design guidelines.
+
+Before contribute this repository, please look at following code and list to understand our coding style and meaning of key and value.
 ```
 [
   {
@@ -21,50 +22,49 @@ Liftim用教科定義データは、Liftim時間割の教科一覧や教科ご�
 ]
 
 ```
-これは定義データの内容の一部を取り出したものです。ルートはJSONArrayです。その中にJSONObjectが列挙されているフォーマットになっています。`subject`、`shortSubject`、`color`の要素がありますが、それぞれの内容は次の表をご覧ください。
+(Currently we support only Janpanese but someone translate, we would like to the other languages)
 
-キー | 概要 | 型
+Key | Discription | Type
 ---- | ---- | ----
-`subject` | 教科の正式な名称 | `String`
-`shortSubject` | 教科の略名 | `String`
-`color` | ColorPaletteで定義されている色 | `String`
+`subject` | Formal subject name | `String`
+`shortSubject` | Informal, short subject name | `String`
+`color` | Subject theme color | `String`
 
-※キーの順番はデータの読み取りに全く影響がありません。
-もしColorPalleteにない定義をした場合はLiftimは未定義の色として内部的に決められた色を使用します。
+Order of keys doesn't have any affects for parsing data but look at code around you and make effort to write uniformed code.
+If you define a color not defined at the palette, Liftim will handle as an undefined color and display hardcorded color(e.g. gray).
 
-## Gitコマンドの使用方法
-Gitコマンドがわからない人がいると困るので。Gitは[ここ](https://git-scm.com/)からダウンロードできます。
-ChronoscopeAppLabのOrganizationに入っている前提で書きます。入っていない場合は最初にこのリポジトリをforkしてください。
+## How to use GIT command?
+If you don't know how to use git command, you can contribute following step-by-step guide. Git is available [here](https://git-scm.com/).
+(If you aren't in the Chronoscope organization, please fork this repo at first)
 
-###### 1.リポジトリをcloneします。
+###### 1.clone repository
 ```
 cd /tekitouna/directory/
 git clone https://github.com/ChronoscopeAppLab/Subjects.git
 ```
 
-###### 2.ブランチを作ります。
+###### 2.make branch
 ```
-git branch ブランチ名
-```
-(ブランチ名のところはわかりやすい名前をつけてください。)
-
-###### 3.作ったブランチに切り替えます。
-```
-git checkout ブランチ名
+git branch BRANCH-NAME
 ```
 
-###### 4.適当に（というか真剣に）ファイルを編集します。
+###### 3.checkout branch you made
+```
+git checkout BRANCH-NAME
+```
 
-###### 5.commitします。
+###### 4.edit file
+
+###### 5.commit changes
 ```
 git add --all
-git commit -m "コミットメッセージ（わかりやすいメッセージを入れてください）"
+git commit -m "COMMIT-MESSAGE"
 ```
 
-###### 6.pushします。
+###### 6.push
 ```
-git push origin ブランチ名
+git push origin BRANCH-NAME
 ```
 
-###### 7.GitHubでプルリクエスト作成
-GitHubを開くとリポジトリの上部に見慣れないものが表示されていると思います。そこをクリックし、`master`とcompareしてプルリクエストを作成してください（最後説明が雑）。
+###### 7.open pull request on GitHub
+Open GitHub and click OpenPullRequest button to open pull request.
